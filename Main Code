@@ -1,0 +1,32 @@
+#include <iostream>
+#include <conio.h>
+
+using namespace std;
+
+string userItem;
+string availableItems[7] = {"Tempura", "Okonominiyaki", "Ramen", "Sushi", "Takoyaki", "Sashimi"};
+
+string menuLine[3] = { availableItems[0] + " | " + availableItems[1]
+                                             ,
+                       availableItems[2] + " | " + availableItems[3]
+                                             ,
+                       availableItems[4] + " | " + availableItems[5] };
+
+
+void japaneseRestaurant() {
+
+    cout << endl << "                                     _________________________                         ";
+    cout << endl << "                                     |        Japanese       |                          ";
+    cout << endl << "                                     |_____ Restaurant ______|                          ";
+    cout << endl << "                                          |__        __|                            ";
+    cout << endl << "                                            | (*v*)/ |                              ";
+    cout << endl << "                                            |________|                              ";
+    cout << endl << "                               ______________________________                   ";
+    cout << endl << "                         ______|                            |                   ";
+    cout << endl << "                        |      |   " << menuLine[0] << "  |                     ";
+    cout << endl << "                        | Menu |     " << menuLine[1] << "          |           ";
+    cout << endl << "                        |______|  " << menuLine[2] << "        |                ";
+    cout << endl << "                               |____________________________|                   ";
+    cout << endl << endl << endl << endl;
+
+}
